@@ -262,7 +262,7 @@ footer p {
 
 .shop-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* ✅ 3 items per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin: 60px auto;
   max-width: 1200px;
@@ -295,23 +295,19 @@ footer p {
 /* Responsive Layouts */
 @media (max-width: 900px) {
   .shop-container {
-    grid-template-columns: repeat(2, 1fr); /* ✅ 2 items per row on tablets */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
   .shop-container {
-    grid-template-columns: 1fr; /* ✅ 1 item per row on phones */
+    grid-template-columns: 1fr;
   }
 }
 
 
 /* =========================================
    SHOP PAGE
-   ========================================= */
-
-/* =========================================
-   SHOP PAGE (SCOPED & FIXED: 3 per row)
    ========================================= */
 
 .sub-header {
@@ -328,7 +324,6 @@ footer p {
   margin-bottom: 10px;
 }
 
-/* category-nav (top buttons) */
 .category-nav {
   display: flex;
   justify-content: center;
@@ -351,7 +346,6 @@ footer p {
   border-bottom: 2px solid #2f2a1b;
 }
 
-/* wrapper for each category section */
 .category {
   padding: 40px 10%;
   background-color: #fff;
@@ -361,7 +355,7 @@ footer p {
   margin: 0 auto;
 }
 
-/* section title */
+
 .category h2 {
   font-size: 1.8rem;
   font-family: "Playfair Display", serif;
@@ -369,11 +363,10 @@ footer p {
   margin-bottom: 30px;
 }
 
-/* GRID: 3 columns on desktop, 2 on tablet, 1 on phone */
-/* Scoped to .category to avoid conflicting with other .product rules */
+
 .category .product-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 30px;
   justify-items: stretch;
   align-items: start;
@@ -381,7 +374,6 @@ footer p {
   box-sizing: border-box;
 }
 
-/* individual product card (scoped) */
 .category .product {
   background: #fff;
   border-radius: 12px;
@@ -395,7 +387,6 @@ footer p {
   gap: 10px;
 }
 
-/* keep images from overflowing and forcing layout issues */
 .category .product img {
   width: 100%;
   height: 220px;
@@ -405,7 +396,7 @@ footer p {
   display: block;
 }
 
-/* product title/desc/button styles (scoped) */
+
 .category .name {
   font-size: 18px;
   color: #ae8a16;
@@ -418,10 +409,10 @@ footer p {
   color: #555;
   font-size: 14px;
   margin-bottom: 8px;
-  flex-grow: 1; /* push buttons to bottom */
+  flex-grow: 1;
 }
 
-/* buttons row */
+
 .category .buttons {
   display: flex;
   justify-content: center;
@@ -461,13 +452,10 @@ footer p {
   background-color: #b38e2e;
 }
 
-/* if you're toggling sections with .hidden, keep it visible by default here
-   (but consider removing .hidden entirely if you control visibility with JS) */
 .hidden {
   display: block !important;
 }
 
-/* RESPONSIVE: 2 per row on medium screens, 1 per row on small screens */
 @media (max-width: 1000px) {
   .category .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -946,4 +934,5 @@ footer p {
     height: 120px;
   }
 }
+
 

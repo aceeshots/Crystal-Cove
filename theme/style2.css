@@ -9,8 +9,8 @@
 
 body {
   font-family: "Goudy Old Style";
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text color */
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 html {
@@ -21,12 +21,12 @@ html {
    HEADER
    ========================================= */
 .main-header {
-  background-color: #1e1e1e; /* Slightly lighter dark for header */
+  background-color: #1e1e1e;
   border-bottom: 1px solid #cfab32;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .header-container {
@@ -41,8 +41,7 @@ html {
 .logo-img {
   height: 45px;
   width: auto;
-  /* You might need to change the logo image itself or add a filter for dark mode */
-  filter: invert(0.9); /* Example filter if logo is black */
+  filter: invert(0.9);
 }
 
 nav {
@@ -59,7 +58,7 @@ nav {
 
 .list a {
   text-decoration: none;
-  color: #e0e0e0; /* Light link color */
+  color: #e0e0e0;
   font-family: "Sitka Subheading Semibold";
   font-size: 15px;
   text-transform: uppercase;
@@ -69,7 +68,7 @@ nav {
 
 .list a:hover,
 .list a.active {
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
   border-bottom: 2px solid #D4AF37;
 }
 
@@ -89,7 +88,7 @@ nav {
   border: 1px solid #D4AF37;
   border-radius: 25px;
   overflow: hidden;
-  background-color: #2c2c2c; /* Darker background for form */
+  background-color: #2c2c2c;
 }
 
 .search-input {
@@ -97,13 +96,13 @@ nav {
   border: none;
   outline: none;
   font-size: 0.95rem;
-  color: #e0e0e0; /* Light text color */
-  background-color: transparent; /* Transparent to show form background */
+  color: #e0e0e0;
+  background-color: transparent;
   font-family: "Sitka Subheading Semibold";
 }
 
 .search-btn {
-  background-color: #D4AF37; /* Gold accent retained */
+  background-color: #D4AF37;
   border: none;
   padding: 8px 12px;
   cursor: pointer;
@@ -118,20 +117,20 @@ nav {
   width: 22px;
   height: 22px;
   transition: transform 0.3s ease, filter 0.3s ease;
-  filter: invert(0.9); /* Invert icon color if they are black */
+  filter: invert(0.9);
 }
 
 .icon-img:hover {
   transform: scale(1.1);
-  filter: brightness(1.5) invert(0.9); /* Increased brightness for hover */
+  filter: brightness(1.5) invert(0.9);
 }
 
 /* =========================================
    FOOTER
    ========================================= */
 footer {
-  background-color: #1e1e1e; /* Dark background */
-  color: #e0e0e0; /* Light text color */
+  background-color: #1e1e1e;
+  color: #e0e0e0;
   text-align: center;
   padding: 20px 0;
   font-family: "Goudy Old Style";
@@ -159,7 +158,6 @@ footer p {
   width: 100%;
   height: 50vh;
   object-fit: cover;
-  /* Consider adjusting image brightness/contrast for dark mode */
 }
 
 .hometext {
@@ -169,7 +167,7 @@ footer p {
   transform: translateY(-50%);
   color: white;
   text-align: left;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Stronger shadow */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 .hometext h1 {
@@ -179,7 +177,7 @@ footer p {
 }
 
 .hometext h1 span {
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
 }
 
 .hometext p {
@@ -188,8 +186,8 @@ footer p {
 }
 
 .btn {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark button text for contrast */
+  background-color: #D4AF37;
+  color: #121212;
   padding: 10px 25px;
   border-radius: 25px;
   text-decoration: none;
@@ -198,7 +196,7 @@ footer p {
 }
 
 .btn:hover {
-  background-color: #e2be3b; /* Lighter gold for hover */
+  background-color: #e2be3b;
 }
 
 /* =========================================
@@ -215,17 +213,17 @@ footer p {
 
 .product-item {
   text-align: center;
-  background-color: #1e1e1e; /* Dark background for item */
+  background-color: #1e1e1e;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* Darker shadow */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
   width: 230px;
 }
 
 .product-item:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 18px rgba(212, 175, 55, 0.5); /* Gold shadow for hover */
+  box-shadow: 0 10px 18px rgba(212, 175, 55, 0.5);
   filter: brightness(1.1);
 }
 
@@ -238,7 +236,7 @@ footer p {
 
 .product-item h3 {
   margin: 15px 0;
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
   font-size: 20px;
   font-weight: 600;
   font-family: "Goudy Old Style";
@@ -254,7 +252,7 @@ footer p {
    SHOP PAGE
    ========================================= */
 .shop-header {
-  background: #2c2c2c; /* Dark background */
+  background: #2c2c2c;
   padding: 60px 20px;
   text-align: center;
 }
@@ -262,7 +260,7 @@ footer p {
 .shop-header h1 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
-  color: #e0e0e0; /* Light text color */
+  color: #e0e0e0;
 }
 
 .shop-container {
@@ -275,14 +273,14 @@ footer p {
 }
 
 .shop-item {
-  background-color: #1e1e1e; /* Dark background for item */
+  background-color: #1e1e1e;
   border: 1px solid #D4AF37;
   border-radius: 10px;
   text-align: center;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #e0e0e0; /* Ensure text inside is light */
+  color: #e0e0e0;
 }
 
 .shop-item img {
@@ -298,7 +296,7 @@ footer p {
   box-shadow: 0 8px 15px rgba(212, 175, 55, 0.25);
 }
 
-/* Responsive Layouts (No color changes needed) */
+/* Responsive Layouts */
 @media (max-width: 900px) {
   .shop-container {
     grid-template-columns: repeat(2, 1fr);
@@ -317,7 +315,7 @@ footer p {
    ========================================= */
 
 .sub-header {
-  background-color: #2c2c2c; /* Dark background */
+  background-color: #2c2c2c;
   text-align: center;
   padding: 50px 0 20px;
   border-bottom: 2px solid #D4AF37;
@@ -325,7 +323,7 @@ footer p {
 
 .sub-header h1 {
   font-family: "Playfair Display", serif;
-  color: #e0e0e0; /* Light text color */
+  color: #e0e0e0;
   font-size: 2.2rem;
   margin-bottom: 10px;
 }
@@ -339,7 +337,7 @@ footer p {
 
 .category-nav a {
   text-decoration: none;
-  color: #e0e0e0; /* Light link color */
+  color: #e0e0e0;
   font-family: "Sitka Subheading Semibold";
   border-bottom: 2px solid transparent;
   transition: 0.3s;
@@ -348,13 +346,13 @@ footer p {
 }
 
 .category-nav a:hover {
-  color: #D4AF37; /* Gold hover color */
+  color: #D4AF37;
   border-bottom: 2px solid #D4AF37;
 }
 
 .category {
   padding: 40px 10%;
-  background-color: #121212; /* Main dark background */
+  background-color: #121212;
   text-align: center;
   box-sizing: border-box;
   max-width: 1200px;
@@ -365,7 +363,7 @@ footer p {
 .category h2 {
   font-size: 1.8rem;
   font-family: "Playfair Display", serif;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 30px;
 }
 
@@ -381,13 +379,13 @@ footer p {
 }
 
 .category .product {
-  background: #1e1e1e; /* Dark background for product item */
+  background: #1e1e1e;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   padding: 18px;
   text-align: center;
   transition: transform 0.28s ease, box-shadow 0.28s ease;
-  border: 1px solid #333; /* Slightly lighter border */
+  border: 1px solid #333;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -405,14 +403,14 @@ footer p {
 
 .category .name {
   font-size: 18px;
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
   font-weight: 700;
   margin: 8px 0 6px;
   line-height: 1.2;
 }
 
 .category .desc {
-  color: #ccc; /* Lighter description text */
+  color: #ccc;
   font-size: 14px;
   margin-bottom: 8px;
   flex-grow: 1;
@@ -427,8 +425,8 @@ footer p {
 }
 
 .category .buttons button {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark button text for contrast */
+  background-color: #D4AF37;
+  color: #121212;
   border: none;
   padding: 8px 14px;
   border-radius: 20px;
@@ -447,7 +445,7 @@ footer p {
   margin-top: 26px;
   text-decoration: none;
   background-color: #D4AF37;
-  color: #121212; /* Dark button text for contrast */
+  color: #121212;
   padding: 8px 20px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -462,7 +460,7 @@ footer p {
   display: block !important;
 }
 
-/* Responsive Layouts (No color changes needed) */
+/* Responsive Layouts */
 @media (max-width: 1000px) {
   .category .product-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -487,8 +485,8 @@ footer p {
 .about-header {
   text-align: center;
   padding: 80px 20px 40px;
-  background: #2c2c2c; /* Dark background */
-  color: #e0e0e0; /* Light text color */
+  background: #2c2c2c;
+  color: #e0e0e0;
 }
 
 .about-header h1 {
@@ -500,12 +498,12 @@ footer p {
 
 .about-header p {
   font-size: 0.9rem;
-  color: #a0a0a0; /* Slightly darker light text */
+  color: #a0a0a0;
 }
 
 .about-header a {
   text-decoration: none;
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
 }
 
 .about-section {
@@ -514,7 +512,7 @@ footer p {
   justify-content: space-between;
   padding: 60px 10%;
   gap: 40px;
-  background-color: #121212; /* Main dark background */
+  background-color: #121212;
 }
 
 .about-section.reverse {
@@ -528,12 +526,12 @@ footer p {
 .about-text h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 15px;
 }
 
 .about-text p {
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -549,10 +547,9 @@ footer p {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   object-fit: cover;
-  /* Consider adjusting image brightness/contrast for dark mode */
 }
 
-/* Responsive for About (No color changes needed) */
+/* Responsive for About */
 @media (max-width: 900px) {
   .about-section {
     flex-direction: column;
@@ -573,7 +570,7 @@ footer p {
    ========================================= */
 
 .contact-header {
-  background-color: #2c2c2c; /* Dark background */
+  background-color: #2c2c2c;
   text-align: center;
   padding: 70px 20px 40px;
   border-bottom: 2px solid #D4AF37;
@@ -582,12 +579,12 @@ footer p {
 .contact-header h1 {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 10px;
 }
 
 .contact-header p {
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   font-size: 1rem;
   max-width: 600px;
   margin: 0 auto;
@@ -599,7 +596,7 @@ footer p {
   align-items: flex-start;
   gap: 50px;
   padding: 60px 10%;
-  background-color: #121212; /* Main dark background */
+  background-color: #121212;
   flex-wrap: wrap;
 }
 
@@ -611,13 +608,13 @@ footer p {
 .contact-info h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.8rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 20px;
 }
 
 .contact-info p {
   margin-bottom: 10px;
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   line-height: 1.6;
 }
 
@@ -629,7 +626,7 @@ footer p {
   display: inline-block;
   margin-right: 10px;
   font-size: 1.3rem;
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
@@ -641,7 +638,7 @@ footer p {
 .contact-form {
   flex: 1;
   min-width: 320px;
-  background: #1e1e1e; /* Dark background for form */
+  background: #1e1e1e;
   border: 1px solid #D4AF37;
   padding: 30px;
   border-radius: 15px;
@@ -650,7 +647,7 @@ footer p {
 
 .contact-form h2 {
   font-family: "Playfair Display", serif;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -664,9 +661,9 @@ footer p {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #555; /* Light border for input */
-  background-color: #2c2c2c; /* Darker background for input */
-  color: #e0e0e0; /* Light input text */
+  border: 1px solid #555;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
   font-family: "Goudy Old Style";
   font-size: 1rem;
   outline: none;
@@ -679,8 +676,8 @@ footer p {
 }
 
 .submit-btn {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark button text for contrast */
+  background-color: #D4AF37;
+  color: #121212;
   padding: 10px 25px;
   border: none;
   border-radius: 25px;
@@ -695,7 +692,7 @@ footer p {
   background-color: #e2be3b;
 }
 
-/* Responsive (No color changes needed) */
+/* Responsive */
 @media (max-width: 900px) {
   .contact-section {
     flex-direction: column;
@@ -713,7 +710,7 @@ footer p {
    ========================================= */
 
 .care-guide-hero {
-  background: #1e1e1e; /* Dark background */
+  background: #1e1e1e;
   padding: 60px 20px;
   text-align: center;
   border-bottom: 3px solid #D4AF37;
@@ -722,14 +719,14 @@ footer p {
 .care-guide-hero h1 {
   font-family: "Goudy Old Style";
   font-size: 2.5rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 15px;
 }
 
 .care-guide-hero p {
   font-family: "Sitka Subheading Semibold";
   font-size: 1.1rem;
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -741,7 +738,7 @@ footer p {
 }
 
 .care-tip {
-  background-color: #1e1e1e; /* Dark background for tip item */
+  background-color: #1e1e1e;
   border: 2px solid #D4AF37;
   border-radius: 12px;
   padding: 30px;
@@ -753,13 +750,13 @@ footer p {
 }
 
 .care-tip:hover {
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4); /* Gold shadow for hover */
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
   transform: translateY(-3px);
 }
 
 .tip-number {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark text for contrast */
+  background-color: #D4AF37;
+  color: #121212;
   font-family: "Goudy Old Style";
   font-size: 1.8rem;
   font-weight: bold;
@@ -779,7 +776,6 @@ footer p {
   border-radius: 8px;
   border: 2px solid #D4AF37;
   flex-shrink: 0;
-  /* Consider adjusting image brightness/contrast for dark mode */
 }
 
 .tip-content {
@@ -789,18 +785,18 @@ footer p {
 .tip-content h2 {
   font-family: "Sitka Subheading Semibold";
   font-size: 1.5rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 12px;
 }
 
 .tip-content p {
   font-family: "Goudy Old Style";
   font-size: 1rem;
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   line-height: 1.7;
 }
 
-/* Responsive (No color changes needed) */
+/* Responsive */
 @media (max-width: 768px) {
   .care-tip {
     flex-direction: column;
@@ -833,7 +829,7 @@ footer p {
   font-family: "Goudy Old Style";
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #D4AF37; /* Gold accent retained */
+  color: #D4AF37;
   border-bottom: 2px solid #D4AF37;
   display: inline-block;
   padding-bottom: 10px;
@@ -855,7 +851,7 @@ footer p {
   border-radius: 12px;
   padding: 15px 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-  background-color: #1e1e1e; /* Dark background for item */
+  background-color: #1e1e1e;
 }
 
 .cart-item img {
@@ -863,7 +859,6 @@ footer p {
   height: 100px;
   object-fit: contain;
   border-radius: 10px;
-  /* Consider adjusting image brightness/contrast for dark mode */
 }
 
 .item-details {
@@ -875,19 +870,19 @@ footer p {
 .item-details h2 {
   font-family: "Goudy Old Style";
   font-size: 1.2rem;
-  color: #e0e0e0; /* Light heading color */
+  color: #e0e0e0;
   margin-bottom: 5px;
 }
 
 .item-details p {
-  color: #ccc; /* Light paragraph text */
+  color: #ccc;
   font-size: 1rem;
   margin-bottom: 10px;
 }
 
 .remove-btn {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark text for contrast */
+  background-color: #D4AF37;
+  color: #121212;
   border: none;
   padding: 8px 16px;
   border-radius: 20px;
@@ -904,7 +899,7 @@ footer p {
 .cart-summary {
   margin-top: 40px;
   text-align: center;
-  color: #e0e0e0; /* Ensure summary text is light */
+  color: #e0e0e0;
 }
 
 .cart-summary h3 {
@@ -915,10 +910,10 @@ footer p {
 }
 
 .checkout-btn {
-  background-color: #D4AF37; /* Gold accent retained */
-  color: #121212; /* Dark button text for contrast */
-  border: none;
+  background-color: #D4AF37;
+  color: #121212;
   padding: 12px 28px;
+  border: none;
   border-radius: 30px;
   font-size: 1rem;
   font-family: "Goudy Old Style";
@@ -930,7 +925,7 @@ footer p {
   background-color: #e2be3b;
 }
 
-/* === Responsive (No color changes needed) === */
+/* === Responsive === */
 @media (max-width: 768px) {
   .cart-item {
     flex-direction: column;
